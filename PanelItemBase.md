@@ -1,0 +1,65 @@
+# PanelItemBase
+
+**Package:** `org.rusherhack.client.api.ui.panel`
+
+**Source:** `org/rusherhack/client/api/ui/panel/PanelItemBase.java`
+
+**Author:** John200410 12/21/2022
+
+
+
+## Overview
+
+`PanelItemBase` is a class and implements [IPanelItem](IPanelItem.md).
+
+## Constructor
+
+```java
+public PanelItemBase(PanelBase<?> panel, T parent)
+```
+
+## Fields
+
+| Name | Type | Modifiers |
+|------|------|----------|
+| panel | [PanelBase](PanelBase.md)<`?`> | protected , final |
+| parent | `T` | protected , final |
+| subItems | `List`<`T`> | protected , final |
+
+
+## Methods
+
+### addSubItem()
+
+```java
+public void addSubItem(T item)
+```
+
+### getSubItemList()
+
+```java
+public List<T> getSubItemList()
+```
+
+**Returns:** `List`<`T`>
+
+### getPanel()
+
+```java
+public PanelBase<?> getPanel()
+```
+
+**Returns:** [PanelBase](PanelBase.md)<`?`>
+
+### getParent()
+
+```java
+public T getParent()
+```
+
+**Returns:** `T`
+
+---
+
+Copyright (c) 2022-2024 Rusher Development LLC. All Rights Reserved.
+* Unauthorized copying of this file, via any medium is strictly prohibited, proprietary, and confidential.
