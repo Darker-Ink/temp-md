@@ -18,7 +18,7 @@ public Whisper(String sender, String recipient, String message)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| recipient | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
+| recipient | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 
 
 ## Methods

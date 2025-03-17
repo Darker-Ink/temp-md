@@ -18,7 +18,7 @@ public BuildButtons(Screen screen, List<Renderable> renderables)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| renderables | `List`<`Renderable`> | private , final |
+| renderables | `List`<`Renderable`> | private final |
 
 
 ## Methods

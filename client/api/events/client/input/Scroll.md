@@ -20,8 +20,8 @@ public Scroll(double xOffset, double yOffset)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| xOffset | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
-| yOffset | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
+| xOffset | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
+| yOffset | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
 
 
 ## Methods

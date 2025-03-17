@@ -22,7 +22,7 @@
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| displayName | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
+| displayName | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 
 
 ## Constants
@@ -88,7 +88,7 @@ public String[] getAliases()
 ### getCategoryByName()
 
 ```java
-public , static ModuleCategory getCategoryByName(String name)
+public static ModuleCategory getCategoryByName(String name)
 ```
 
 **Returns:** [ModuleCategory](/client/api/feature/module/ModuleCategory.md)

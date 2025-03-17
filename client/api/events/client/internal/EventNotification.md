@@ -24,10 +24,10 @@ public EventNotification(NotificationType type, Component text, boolean chat, bo
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| type | [NotificationType](/core/notification/NotificationType.md) | private , final |
-| text | `Component` | private , final |
-| chat | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private , final |
-| hud | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private , final |
+| type | [NotificationType](/core/notification/NotificationType.md) | private final |
+| text | `Component` | private final |
+| chat | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private final |
+| hud | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private final |
 
 
 ## Methods

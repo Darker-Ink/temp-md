@@ -26,9 +26,9 @@ public NumberSetting(String name, String description, T value, T minimum, T maxi
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| displayFormat | `DecimalFormat` | private , static , final |
-| minimum | `T` | private , final |
-| maximum | `T` | private , final |
+| displayFormat | `DecimalFormat` | private static final |
+| minimum | `T` | private final |
+| maximum | `T` | private final |
 | clampMinimum | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | clampMaximum | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | incrementing | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |

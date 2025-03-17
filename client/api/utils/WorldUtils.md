@@ -17,7 +17,7 @@
 ### getEntities()
 
 ```java
-public , static List<Entity> getEntities()
+public static List<Entity> getEntities()
 ```
 
 **Returns**: all loaded entities
@@ -29,7 +29,7 @@ public , static List<Entity> getEntities()
 ### getEntities()
 
 ```java
-public , static List<Entity> getEntities(Predicate<Entity> predicate)
+public static List<Entity> getEntities(Predicate<Entity> predicate)
 ```
 
 **Returns**: all loaded entities
@@ -41,7 +41,7 @@ public , static List<Entity> getEntities(Predicate<Entity> predicate)
 ### getEntitiesSorted()
 
 ```java
-public , static List<Entity> getEntitiesSorted()
+public static List<Entity> getEntitiesSorted()
 ```
 
 **Returns**: all loaded entities sorted by distance to camera
@@ -53,7 +53,7 @@ public , static List<Entity> getEntitiesSorted()
 ### getEntitiesSorted()
 
 ```java
-public , static List<Entity> getEntitiesSorted(Entity entity)
+public static List<Entity> getEntitiesSorted(Entity entity)
 ```
 
 **Returns**: all loaded entities sorted by distance to entity
@@ -65,7 +65,7 @@ public , static List<Entity> getEntitiesSorted(Entity entity)
 ### getEntitiesSorted()
 
 ```java
-public , static List<Entity> getEntitiesSorted(Entity entity, Predicate<Entity> predicate)
+public static List<Entity> getEntitiesSorted(Entity entity, Predicate<Entity> predicate)
 ```
 
 **Returns**: all loaded entities sorted by distance to entity
@@ -77,7 +77,7 @@ public , static List<Entity> getEntitiesSorted(Entity entity, Predicate<Entity> 
 ### getChunks()
 
 ```java
-public , static List<LevelChunk> getChunks()
+public static List<LevelChunk> getChunks()
 ```
 
 **Returns:** `List`<`LevelChunk`>
@@ -85,7 +85,7 @@ public , static List<LevelChunk> getChunks()
 ### getBlockEntities()
 
 ```java
-public , static List<BlockEntity> getBlockEntities(boolean sorted)
+public static List<BlockEntity> getBlockEntities(boolean sorted)
 ```
 
 **Returns:** `List`<`BlockEntity`>
@@ -93,7 +93,7 @@ public , static List<BlockEntity> getBlockEntities(boolean sorted)
 ### getSphere()
 
 ```java
-public , static List<BlockPos> getSphere(Vec3i center, float sphereRadius)
+public static List<BlockPos> getSphere(Vec3i center, float sphereRadius)
 ```
 
 **Returns**: a sphere of block positions
@@ -105,7 +105,7 @@ public , static List<BlockPos> getSphere(Vec3i center, float sphereRadius)
 ### getSphere()
 
 ```java
-public , static List<BlockPos> getSphere(Vec3i center, float sphereRadius, Predicate<BlockPos> predicate)
+public static List<BlockPos> getSphere(Vec3i center, float sphereRadius, Predicate<BlockPos> predicate)
 ```
 
 **Parameter `predicate`**: a predicate for which all positions will be tested against
@@ -120,7 +120,7 @@ public , static List<BlockPos> getSphere(Vec3i center, float sphereRadius, Predi
 ### getCircle()
 
 ```java
-public , static List<BlockPos> getCircle(Vec3i center, float circleRadius)
+public static List<BlockPos> getCircle(Vec3i center, float circleRadius)
 ```
 
 **Returns**: a circle of block positions
@@ -132,7 +132,7 @@ public , static List<BlockPos> getCircle(Vec3i center, float circleRadius)
 ### isReplaceble()
 
 ```java
-public , static boolean isReplaceble(BlockPos pos)
+public static boolean isReplaceble(BlockPos pos)
 ```
 
 **Returns**: true if the position is air or contains a replaceable block
@@ -144,7 +144,7 @@ public , static boolean isReplaceble(BlockPos pos)
 ### checkCollision()
 
 ```java
-public , static boolean checkCollision(BlockPos pos)
+public static boolean checkCollision(BlockPos pos)
 ```
 
 **Returns**: true if the position is free of entities that would prevent placing
@@ -156,7 +156,7 @@ public , static boolean checkCollision(BlockPos pos)
 ### checkCollision()
 
 ```java
-public , static boolean checkCollision(BlockPos pos, VoxelShape shape, Predicate<Entity> predicate)
+public static boolean checkCollision(BlockPos pos, VoxelShape shape, Predicate<Entity> predicate)
 ```
 
 **Parameter `shape`**: the shape in which we are checking for collision

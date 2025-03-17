@@ -27,7 +27,7 @@ public ElementHandlerBase(boolean scaledWithMinecraftGui)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| scaledWithMinecraftGui | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private , final |
+| scaledWithMinecraftGui | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private final |
 | positionsInitialized | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | public |
 
 
@@ -36,7 +36,7 @@ public ElementHandlerBase(boolean scaledWithMinecraftGui)
 ### getElements()
 
 ```java
-public , abstract List<T> getElements()
+public abstract List<T> getElements()
 ```
 
 **Returns**: elements to be handled by this handler
@@ -64,7 +64,7 @@ Finds an element given it's name
 ### initialize()
 
 ```java
-public , abstract void initialize()
+public abstract void initialize()
 ```
 
 Initialize all of the elements
@@ -72,7 +72,7 @@ Initialize all of the elements
 ### setDefaultPositions()
 
 ```java
-public , abstract void setDefaultPositions()
+public abstract void setDefaultPositions()
 ```
 
 Sets the default positions of the elements
@@ -80,7 +80,7 @@ Sets the default positions of the elements
 ### moveElementToTop()
 
 ```java
-public , abstract void moveElementToTop(T element)
+public abstract void moveElementToTop(T element)
 ```
 
 Moves the element to the top

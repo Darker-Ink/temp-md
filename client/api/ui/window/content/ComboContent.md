@@ -31,7 +31,7 @@ public ComboContent(Window window)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| contents | `List`<`Pair<WindowContent`, `AnchorSide>`> | private , final |
+| contents | `List`<`Pair<WindowContent`, `AnchorSide>`> | private final |
 | parent | [WindowView](/client/api/ui/window/view/WindowView.md) | private |
 
 

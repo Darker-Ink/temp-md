@@ -18,7 +18,7 @@
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| comparator | `Comparator`<[ListItem](/client/api/feature/hud/ListItem.md)> | public , final |
+| comparator | `Comparator`<[ListItem](/client/api/feature/hud/ListItem.md)> | public final |
 
 
 ## Constants

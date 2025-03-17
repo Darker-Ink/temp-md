@@ -17,7 +17,7 @@ Helper class containing player related functions
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| fallDistance | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private , static |
+| fallDistance | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private static |
 
 
 ## Methods
@@ -25,7 +25,7 @@ Helper class containing player related functions
 ### getDirectionalSpeed()
 
 ```java
-public , static double[] getDirectionalSpeed(double speed)
+public static double[] getDirectionalSpeed(double speed)
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)[]
@@ -33,7 +33,7 @@ public , static double[] getDirectionalSpeed(double speed)
 ### getDirectionalSpeed()
 
 ```java
-public , static double[] getDirectionalSpeed(float yaw, double speed)
+public static double[] getDirectionalSpeed(float yaw, double speed)
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)[]
@@ -41,7 +41,7 @@ public , static double[] getDirectionalSpeed(float yaw, double speed)
 ### getDirectionalSpeed()
 
 ```java
-public , static double[] getDirectionalSpeed(LocalPlayer player, float yaw, double speed)
+public static double[] getDirectionalSpeed(LocalPlayer player, float yaw, double speed)
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)[]
@@ -49,7 +49,7 @@ public , static double[] getDirectionalSpeed(LocalPlayer player, float yaw, doub
 ### getDirectionalSpeed()
 
 ```java
-public , static double[] getDirectionalSpeed(LocalPlayer player, float yaw, double speed, float forward, float strafe)
+public static double[] getDirectionalSpeed(LocalPlayer player, float yaw, double speed, float forward, float strafe)
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)[]
@@ -57,7 +57,7 @@ public , static double[] getDirectionalSpeed(LocalPlayer player, float yaw, doub
 ### hasHorizontalInput()
 
 ```java
-public , static boolean hasHorizontalInput()
+public static boolean hasHorizontalInput()
 ```
 
 **Returns:** [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html)
@@ -65,7 +65,7 @@ public , static boolean hasHorizontalInput()
 ### getEyeBlockPos()
 
 ```java
-public , static BlockPos getEyeBlockPos()
+public static BlockPos getEyeBlockPos()
 ```
 
 **Returns:** `BlockPos`
@@ -73,7 +73,7 @@ public , static BlockPos getEyeBlockPos()
 ### getFallDistance()
 
 ```java
-public , static float getFallDistance()
+public static float getFallDistance()
 ```
 
 **Returns:** [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html)
@@ -81,6 +81,6 @@ public , static float getFallDistance()
 ### onMove()
 
 ```java
-private , static void onMove(EventMove event)
+private static void onMove(EventMove event)
 ```
 

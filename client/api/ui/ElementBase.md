@@ -42,7 +42,7 @@ public double getY()
 ### getWidth()
 
 ```java
-public , abstract double getWidth()
+public abstract double getWidth()
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)
@@ -50,7 +50,7 @@ public , abstract double getWidth()
 ### getHeight()
 
 ```java
-public , abstract double getHeight()
+public abstract double getHeight()
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)

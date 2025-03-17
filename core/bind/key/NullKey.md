@@ -17,7 +17,7 @@ An unbound key
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| INSTANCE | [NullKey](/core/bind/key/NullKey.md) | public , static , final |
+| INSTANCE | [NullKey](/core/bind/key/NullKey.md) | public static final |
 
 
 ## Methods

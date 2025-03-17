@@ -22,7 +22,7 @@ public RichTextComponent(Window window, Component component)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| component | `Component` | private , final |
+| component | `Component` | private final |
 
 
 ## Methods

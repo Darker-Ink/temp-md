@@ -17,7 +17,7 @@
 ### interpolateEntityVec()
 
 ```java
-public , static Vec3 interpolateEntityVec(Entity entity, float partialTicks)
+public static Vec3 interpolateEntityVec(Entity entity, float partialTicks)
 ```
 
 **Returns:** `Vec3`
@@ -25,7 +25,7 @@ public , static Vec3 interpolateEntityVec(Entity entity, float partialTicks)
 ### interpolateEntityPosition()
 
 ```java
-public , static double[] interpolateEntityPosition(Entity entity, float partialTicks)
+public static double[] interpolateEntityPosition(Entity entity, float partialTicks)
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)[]
@@ -33,7 +33,7 @@ public , static double[] interpolateEntityPosition(Entity entity, float partialT
 ### getNameForEntity()
 
 ```java
-public , static String getNameForEntity(Entity entity)
+public static String getNameForEntity(Entity entity)
 ```
 
 **Returns:** [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)

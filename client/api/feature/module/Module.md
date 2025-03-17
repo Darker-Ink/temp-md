@@ -27,14 +27,14 @@ public Module(String name, String description, ModuleCategory category)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
-| description | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
-| category | [ModuleCategory](/client/api/feature/module/ModuleCategory.md) | private , final |
+| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
+| description | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
+| category | [ModuleCategory](/client/api/feature/module/ModuleCategory.md) | private final |
 | hidden | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | notifications | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | listening | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
-| settings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private , final |
-| logger | [ILogger](/core/logging/ILogger.md) | protected , final |
+| settings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private final |
+| logger | [ILogger](/core/logging/ILogger.md) | protected final |
 
 
 ## Methods

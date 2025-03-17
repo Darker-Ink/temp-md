@@ -22,15 +22,15 @@ public EventRenderEntity(Entity entity, double x, double y, double z, float rota
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| entity | `Entity` | private , final |
-| x | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
-| y | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
-| z | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
-| rotationYaw | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private , final |
-| partialTicks | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private , final |
-| matrixStack | `PoseStack` | private , final |
+| entity | `Entity` | private final |
+| x | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
+| y | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
+| z | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
+| rotationYaw | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private final |
+| partialTicks | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private final |
+| matrixStack | `PoseStack` | private final |
 | buffer | `MultiBufferSource` | private |
-| packedLight | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private , final |
+| packedLight | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
 | shouldRenderModel | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 
 

@@ -22,7 +22,7 @@ public EventPacket(Packet<?> packet)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| packet | `Packet`<`?`> | private , final |
+| packet | `Packet`<`?`> | private final |
 
 
 ## Methods

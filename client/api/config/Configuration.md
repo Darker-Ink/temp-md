@@ -23,9 +23,9 @@ public Configuration(File file)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| CONFIG_DIRECTORY | `Path` | public , static , final |
-| logger | [ILogger](/core/logging/ILogger.md) | public , final |
-| file | `File` | private , final |
+| CONFIG_DIRECTORY | `Path` | public static final |
+| logger | [ILogger](/core/logging/ILogger.md) | public final |
+| file | `File` | private final |
 
 
 ## Methods
@@ -33,13 +33,13 @@ public Configuration(File file)
 ### write()
 
 ```java
-public , abstract void write(ISerializable<?> serializable)
+public abstract void write(ISerializable<?> serializable)
 ```
 
 ### read()
 
 ```java
-public , abstract void read(ISerializable<?> serializable)
+public abstract void read(ISerializable<?> serializable)
 ```
 
 ### getFile()

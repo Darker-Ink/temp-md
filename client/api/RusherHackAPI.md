@@ -18,7 +18,7 @@ TODO: javadocs
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| rusherhack | [IRusherHack](/client/api/IRusherHack.md) | private , static |
+| rusherhack | [IRusherHack](/client/api/IRusherHack.md) | private static |
 
 
 ## Methods
@@ -26,7 +26,7 @@ TODO: javadocs
 ### getEventBus()
 
 ```java
-public , static IEventBus getEventBus()
+public static IEventBus getEventBus()
 ```
 
 **Returns**: The event bus used to subscribe to events
@@ -38,7 +38,7 @@ public , static IEventBus getEventBus()
 ### createLogger()
 
 ```java
-public , static ILogger createLogger(String name)
+public static ILogger createLogger(String name)
 ```
 
 Creates a logger with the specified name
@@ -48,7 +48,7 @@ Creates a logger with the specified name
 ### getVersion()
 
 ```java
-public , static String getVersion()
+public static String getVersion()
 ```
 
 **Returns:** [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)
@@ -56,7 +56,7 @@ public , static String getVersion()
 ### getConfigPath()
 
 ```java
-public , static Path getConfigPath()
+public static Path getConfigPath()
 ```
 
 **Returns:** `Path`
@@ -64,7 +64,7 @@ public , static Path getConfigPath()
 ### getModuleManager()
 
 ```java
-public , static IFeatureManager<IModule> getModuleManager()
+public static IFeatureManager<IModule> getModuleManager()
 ```
 
 **Returns:** [IFeatureManager](/core/feature/IFeatureManager.md)<[IModule](/client/api/feature/module/IModule.md)>
@@ -72,7 +72,7 @@ public , static IFeatureManager<IModule> getModuleManager()
 ### getCommandManager()
 
 ```java
-public , static ICommandManager getCommandManager()
+public static ICommandManager getCommandManager()
 ```
 
 **Returns:** [ICommandManager](/core/command/ICommandManager.md)
@@ -80,7 +80,7 @@ public , static ICommandManager getCommandManager()
 ### getHudManager()
 
 ```java
-public , static IHudManager getHudManager()
+public static IHudManager getHudManager()
 ```
 
 **Returns:** [IHudManager](/client/api/system/IHudManager.md)
@@ -88,7 +88,7 @@ public , static IHudManager getHudManager()
 ### getWindowManager()
 
 ```java
-public , static IWindowManager getWindowManager()
+public static IWindowManager getWindowManager()
 ```
 
 **Returns:** [IWindowManager](/client/api/system/IWindowManager.md)
@@ -96,7 +96,7 @@ public , static IWindowManager getWindowManager()
 ### getThemeManager()
 
 ```java
-public , static IThemeManager getThemeManager()
+public static IThemeManager getThemeManager()
 ```
 
 **Returns:** [IThemeManager](/client/api/ui/theme/IThemeManager.md)
@@ -104,7 +104,7 @@ public , static IThemeManager getThemeManager()
 ### getBindManager()
 
 ```java
-public , static IBindManager getBindManager()
+public static IBindManager getBindManager()
 ```
 
 **Returns:** [IBindManager](/client/api/bind/IBindManager.md)
@@ -112,7 +112,7 @@ public , static IBindManager getBindManager()
 ### getRelationManager()
 
 ```java
-public , static IRelationManager getRelationManager()
+public static IRelationManager getRelationManager()
 ```
 
 **Returns:** [IRelationManager](/client/api/system/IRelationManager.md)
@@ -120,7 +120,7 @@ public , static IRelationManager getRelationManager()
 ### getRotationManager()
 
 ```java
-public , static IRotationManager getRotationManager()
+public static IRotationManager getRotationManager()
 ```
 
 **Returns:** [IRotationManager](/client/api/system/IRotationManager.md)
@@ -128,7 +128,7 @@ public , static IRotationManager getRotationManager()
 ### getNotificationManager()
 
 ```java
-public , static INotificationManager getNotificationManager()
+public static INotificationManager getNotificationManager()
 ```
 
 **Returns:** [INotificationManager](/client/api/system/INotificationManager.md)
@@ -136,7 +136,7 @@ public , static INotificationManager getNotificationManager()
 ### getChunkProcessor()
 
 ```java
-public , static IChunkProcessor getChunkProcessor()
+public static IChunkProcessor getChunkProcessor()
 ```
 
 **Returns:** [IChunkProcessor](/client/api/system/IChunkProcessor.md)
@@ -144,7 +144,7 @@ public , static IChunkProcessor getChunkProcessor()
 ### getServerState()
 
 ```java
-public , static IServerState getServerState()
+public static IServerState getServerState()
 ```
 
 **Returns:** [IServerState](/client/api/system/IServerState.md)
@@ -152,7 +152,7 @@ public , static IServerState getServerState()
 ### interactions()
 
 ```java
-public , static IInteractions interactions()
+public static IInteractions interactions()
 ```
 
 **Returns:** [IInteractions](/client/api/system/IInteractions.md)
@@ -160,7 +160,7 @@ public , static IInteractions interactions()
 ### getRenderer2D()
 
 ```java
-public , static IRenderer2D getRenderer2D()
+public static IRenderer2D getRenderer2D()
 ```
 
 **Returns:** [IRenderer2D](/client/api/render/IRenderer2D.md)
@@ -168,7 +168,7 @@ public , static IRenderer2D getRenderer2D()
 ### getRenderer3D()
 
 ```java
-public , static IRenderer3D getRenderer3D()
+public static IRenderer3D getRenderer3D()
 ```
 
 **Returns:** [IRenderer3D](/client/api/render/IRenderer3D.md)
@@ -176,7 +176,7 @@ public , static IRenderer3D getRenderer3D()
 ### fonts()
 
 ```java
-public , static Fonts fonts()
+public static Fonts fonts()
 ```
 
 **Returns:** [Fonts](/client/api/system/Fonts.md)
@@ -184,7 +184,7 @@ public , static Fonts fonts()
 ### colors()
 
 ```java
-public , static Colors colors()
+public static Colors colors()
 ```
 
 **Returns:** [Colors](/client/api/system/Colors.md)
@@ -192,7 +192,7 @@ public , static Colors colors()
 ### entities()
 
 ```java
-public , static Entities entities()
+public static Entities entities()
 ```
 
 **Returns:** [Entities](/client/api/system/Entities.md)
@@ -200,12 +200,12 @@ public , static Entities entities()
 ### sendNotification()
 
 ```java
-public , static void sendNotification(NotificationType type, String text)
+public static void sendNotification(NotificationType type, String text)
 ```
 
 ### sendNotification()
 
 ```java
-public , static void sendNotification(NotificationType type, String prefix, String text)
+public static void sendNotification(NotificationType type, String prefix, String text)
 ```
 

@@ -18,7 +18,7 @@ Helper class containing String related functions
 ### toTitleCase()
 
 ```java
-public , static String toTitleCase(String str)
+public static String toTitleCase(String str)
 ```
 
 Creates a title case string
@@ -34,7 +34,7 @@ Creates a title case string
 ### levenshteinDistance()
 
 ```java
-public , static int levenshteinDistance(String string1, String string2)
+public static int levenshteinDistance(String string1, String string2)
 ```
 
 Calculates the Levenshtein distance between two strings

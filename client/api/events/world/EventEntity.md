@@ -22,7 +22,7 @@ public EventEntity(Entity entity)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| entity | `Entity` | private , final |
+| entity | `Entity` | private final |
 
 
 ## Methods

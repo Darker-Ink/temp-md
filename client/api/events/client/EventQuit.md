@@ -23,7 +23,7 @@ public EventQuit(Reason reason)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| reason | [Reason](/client/api/events/client/Reason.md) | private , final |
+| reason | [Reason](/client/api/events/client/Reason.md) | private final |
 
 
 ## Methods

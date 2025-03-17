@@ -22,7 +22,7 @@ public EventChunk(ChunkPos pos)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| pos | `ChunkPos` | private , final |
+| pos | `ChunkPos` | private final |
 
 
 ## Methods

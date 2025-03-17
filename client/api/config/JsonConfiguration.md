@@ -22,7 +22,7 @@ public JsonConfiguration(File file)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| GSON | `Gson` | public , static , final |
+| GSON | `Gson` | public static final |
 
 
 ## Methods
@@ -30,7 +30,7 @@ public JsonConfiguration(File file)
 ### createConfiguration()
 
 ```java
-public , static JsonConfiguration createConfiguration(String name)
+public static JsonConfiguration createConfiguration(String name)
 ```
 
 **Returns:** [JsonConfiguration](/client/api/config/JsonConfiguration.md)
@@ -38,7 +38,7 @@ public , static JsonConfiguration createConfiguration(String name)
 ### createConfiguration()
 
 ```java
-public , static JsonConfiguration createConfiguration(String parentDirectory, String name)
+public static JsonConfiguration createConfiguration(String parentDirectory, String name)
 ```
 
 **Returns:** [JsonConfiguration](/client/api/config/JsonConfiguration.md)

@@ -23,7 +23,7 @@ public FeatureCommand(IFeatureConfigurable feature)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| feature | [IFeatureConfigurable](/core/feature/IFeatureConfigurable.md) | private , final |
+| feature | [IFeatureConfigurable](/core/feature/IFeatureConfigurable.md) | private final |
 
 
 ## Methods

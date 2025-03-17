@@ -18,7 +18,7 @@ public Load(ChunkPos pos, LevelChunk chunk)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| chunk | `LevelChunk` | private , final |
+| chunk | `LevelChunk` | private final |
 
 
 ## Methods

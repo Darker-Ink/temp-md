@@ -16,7 +16,7 @@
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| ALLOCATOR | `MemoryUtil.MemoryAllocator` | public , static , final |
+| ALLOCATOR | `MemoryUtil.MemoryAllocator` | public static final |
 
 
 ## Methods
@@ -24,7 +24,7 @@
 ### create()
 
 ```java
-public , static ByteBuffer create(int size)
+public static ByteBuffer create(int size)
 ```
 
 **Returns:** `ByteBuffer`
@@ -32,7 +32,7 @@ public , static ByteBuffer create(int size)
 ### resize()
 
 ```java
-public , static ByteBuffer resize(ByteBuffer buffer, int size)
+public static ByteBuffer resize(ByteBuffer buffer, int size)
 ```
 
 **Returns:** `ByteBuffer`
@@ -40,7 +40,7 @@ public , static ByteBuffer resize(ByteBuffer buffer, int size)
 ### fileToByteBuffer()
 
 ```java
-public , static ByteBuffer fileToByteBuffer(File file)
+public static ByteBuffer fileToByteBuffer(File file)
 ```
 
 **Returns:** `ByteBuffer`
@@ -48,7 +48,7 @@ public , static ByteBuffer fileToByteBuffer(File file)
 ### resourceToByteBuffer()
 
 ```java
-public , static ByteBuffer resourceToByteBuffer(ClassLoader cl, String resource)
+public static ByteBuffer resourceToByteBuffer(ClassLoader cl, String resource)
 ```
 
 **Returns:** `ByteBuffer`
@@ -56,7 +56,7 @@ public , static ByteBuffer resourceToByteBuffer(ClassLoader cl, String resource)
 ### inputStreamToByteBuffer()
 
 ```java
-public , static ByteBuffer inputStreamToByteBuffer(InputStream inputStream)
+public static ByteBuffer inputStreamToByteBuffer(InputStream inputStream)
 ```
 
 **Returns:** `ByteBuffer`

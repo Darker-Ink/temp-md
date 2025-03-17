@@ -23,10 +23,10 @@ public PanelBase(PanelHandlerBase<? extends PanelBase<T>> handler, String name)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
+| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 | visible | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
-| items | `List`<`T`> | protected , final |
-| handler | [PanelHandlerBase](/client/api/ui/panel/PanelHandlerBase.md) | protected , final |
+| items | `List`<`T`> | protected final |
+| handler | [PanelHandlerBase](/client/api/ui/panel/PanelHandlerBase.md) | protected final |
 
 
 ## Methods
@@ -34,7 +34,7 @@ public PanelBase(PanelHandlerBase<? extends PanelBase<T>> handler, String name)
 ### createFeatureItem()
 
 ```java
-public , abstract T createFeatureItem(IFeature feature)
+public abstract T createFeatureItem(IFeature feature)
 ```
 
 Instantiates a new item for the given feature

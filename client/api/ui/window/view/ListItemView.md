@@ -18,7 +18,7 @@ public ListItemView(Window window, ListView<T> listView, List<T> items)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| listView | [ListView](/client/api/ui/window/view/ListView.md)<`T`> | private , final |
+| listView | [ListView](/client/api/ui/window/view/ListView.md)<`T`> | private final |
 
 
 ## Methods

@@ -18,7 +18,7 @@ public ItemFrameParts(Part part)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| part | [Part](/client/api/events/render/Part.md) | private , final |
+| part | [Part](/client/api/events/render/Part.md) | private final |
 
 
 ## Methods

@@ -16,7 +16,7 @@
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| SECTION_SIGN | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | public , static , final |
+| SECTION_SIGN | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | public static final |
 
 
 ## Methods
@@ -24,31 +24,31 @@
 ### print()
 
 ```java
-public , static void print(String string)
+public static void print(String string)
 ```
 
 ### print()
 
 ```java
-public , static void print(String string, Style textStyle)
+public static void print(String string, Style textStyle)
 ```
 
 ### print()
 
 ```java
-public , static void print(Component component)
+public static void print(Component component)
 ```
 
 ### print()
 
 ```java
-public , static void print(Component component, int tagColor, Style prefixStyle, int typeID)
+public static void print(Component component, int tagColor, Style prefixStyle, int typeID)
 ```
 
 ### stripFormatting()
 
 ```java
-public , static String stripFormatting(String string)
+public static String stripFormatting(String string)
 ```
 
 **Returns:** [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)

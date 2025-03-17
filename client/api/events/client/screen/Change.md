@@ -18,7 +18,7 @@ public Change(Screen from, Screen to)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| from | `Screen` | private , final |
+| from | `Screen` | private final |
 | to | `Screen` | private |
 
 

@@ -28,9 +28,9 @@ public Column(String name, Comparator<T> comparator, double widthWeight)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
+| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 | comparator | `Comparator`<`T`> | private |
-| widthWeight | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
+| widthWeight | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
 
 
 ## Methods

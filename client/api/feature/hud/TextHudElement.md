@@ -27,13 +27,13 @@ public TextHudElement(String name, boolean labeled)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| PADDING | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | public , static , final |
-| labeled | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private , final |
+| PADDING | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | public static final |
+| labeled | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private final |
 | widthCache | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
-| color | [ColorSetting](/client/api/setting/ColorSetting.md) | private , final |
-| labelVisible | [BooleanSetting](/core/setting/BooleanSetting.md) | private , final |
-| labelColor | [ColorSetting](/client/api/setting/ColorSetting.md) | private , final |
-| colon | [BooleanSetting](/core/setting/BooleanSetting.md) | private , final |
+| color | [ColorSetting](/client/api/setting/ColorSetting.md) | private final |
+| labelVisible | [BooleanSetting](/core/setting/BooleanSetting.md) | private final |
+| labelColor | [ColorSetting](/client/api/setting/ColorSetting.md) | private final |
+| colon | [BooleanSetting](/core/setting/BooleanSetting.md) | private final |
 
 
 ## Methods
@@ -59,7 +59,7 @@ public String getLabel()
 ### getText()
 
 ```java
-public , abstract String getText()
+public abstract String getText()
 ```
 
 **Returns**: the text to be displayed

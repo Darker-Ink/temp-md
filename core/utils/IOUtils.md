@@ -18,7 +18,7 @@ Helper class containing IO related functions
 ### toString()
 
 ```java
-public , static String toString(InputStream stream, boolean newLines)
+public static String toString(InputStream stream, boolean newLines)
 ```
 
 **Returns:** [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)
@@ -26,7 +26,7 @@ public , static String toString(InputStream stream, boolean newLines)
 ### readStringFromFile()
 
 ```java
-public , static String readStringFromFile(File file, boolean newLines)
+public static String readStringFromFile(File file, boolean newLines)
 ```
 
 **Returns:** [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)
@@ -34,13 +34,13 @@ public , static String readStringFromFile(File file, boolean newLines)
 ### writeStringToFile()
 
 ```java
-public , static void writeStringToFile(File file, String message, boolean lineSeparator, boolean clean)
+public static void writeStringToFile(File file, String message, boolean lineSeparator, boolean clean)
 ```
 
 ### createFile()
 
 ```java
-public , static boolean createFile(File file)
+public static boolean createFile(File file)
 ```
 
 **Returns:** [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html)

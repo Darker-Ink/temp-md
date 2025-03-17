@@ -38,8 +38,8 @@ window.
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| content | `List`<[WindowContent](/client/api/ui/window/content/WindowContent.md)> | protected , final |
-| view | [SimpleView](/client/api/ui/window/view/SimpleView.md) | protected , final |
+| content | `List`<[WindowContent](/client/api/ui/window/content/WindowContent.md)> | protected final |
+| view | [SimpleView](/client/api/ui/window/view/SimpleView.md) | protected final |
 
 
 ## Methods

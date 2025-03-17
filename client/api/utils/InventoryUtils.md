@@ -18,7 +18,7 @@ Helper class containing inventory related functions
 ### clickSlot()
 
 ```java
-public , static void clickSlot(int slotId, boolean shiftClick)
+public static void clickSlot(int slotId, boolean shiftClick)
 ```
 
 Clicks a slot in the player's inventory
@@ -30,7 +30,7 @@ Clicks a slot in the player's inventory
 ### swapSlots()
 
 ```java
-public , static void swapSlots(int inventorySlot, int hotbarSlot)
+public static void swapSlots(int inventorySlot, int hotbarSlot)
 ```
 
 Swaps 2 item slots in the player's inventory
@@ -45,7 +45,7 @@ Swaps 2 item slots in the player's inventory
 ### findItem()
 
 ```java
-public , static int findItem(Item item, boolean hotbarPriority, boolean includeOffhand)
+public static int findItem(Item item, boolean hotbarPriority, boolean includeOffhand)
 ```
 
 Finds an item in the player's inventory
@@ -65,7 +65,7 @@ Finds an item in the player's inventory
 ### findItem()
 
 ```java
-public , static int findItem(Predicate<ItemStack> predicate, boolean hotbarPriority, boolean includeOffhand)
+public static int findItem(Predicate<ItemStack> predicate, boolean hotbarPriority, boolean includeOffhand)
 ```
 
 Finds an item in the player's inventory
@@ -85,7 +85,7 @@ Finds an item in the player's inventory
 ### findItem()
 
 ```java
-public , static int findItem(Predicate<ItemStack> predicate, Comparator<ItemStack> comparator, boolean hotbarPriority, boolean includeOffhand)
+public static int findItem(Predicate<ItemStack> predicate, Comparator<ItemStack> comparator, boolean hotbarPriority, boolean includeOffhand)
 ```
 
 Finds an item in the player's inventory
@@ -105,7 +105,7 @@ Finds an item in the player's inventory
 ### findItemHotbar()
 
 ```java
-public , static int findItemHotbar(Item item)
+public static int findItemHotbar(Item item)
 ```
 
 Finds an item in the player's hotbar
@@ -121,7 +121,7 @@ Finds an item in the player's hotbar
 ### findItemHotbar()
 
 ```java
-public , static int findItemHotbar(Predicate<ItemStack> predicate)
+public static int findItemHotbar(Predicate<ItemStack> predicate)
 ```
 
 Finds an item in the player's hotbar
@@ -136,7 +136,7 @@ Finds an item in the player's hotbar
 ### findItemHotbar()
 
 ```java
-public , static int findItemHotbar(Predicate<ItemStack> predicate, Comparator<ItemStack> comparator)
+public static int findItemHotbar(Predicate<ItemStack> predicate, Comparator<ItemStack> comparator)
 ```
 
 Finds an item in the player's hotbar
@@ -152,7 +152,7 @@ Finds an item in the player's hotbar
 ### getItemCount()
 
 ```java
-public , static int getItemCount(Item item, boolean hotbarOnly, boolean includeOffhand)
+public static int getItemCount(Item item, boolean hotbarOnly, boolean includeOffhand)
 ```
 
 Gets the count of an item in the player's inventory
@@ -174,7 +174,7 @@ Gets the count of an item in the player's inventory
 ### getItemCount()
 
 ```java
-public , static int getItemCount(Predicate<ItemStack> predicate, boolean hotbarOnly, boolean includeOffhand)
+public static int getItemCount(Predicate<ItemStack> predicate, boolean hotbarOnly, boolean includeOffhand)
 ```
 
 Gets the count of an item in the player's inventory
@@ -193,7 +193,7 @@ Gets the count of an item in the player's inventory
 ### getStackCount()
 
 ```java
-public , static int getStackCount(Predicate<ItemStack> predicate, boolean hotbarOnly, boolean includeOffhand)
+public static int getStackCount(Predicate<ItemStack> predicate, boolean hotbarOnly, boolean includeOffhand)
 ```
 
 Gets the count of item stacks matching the specified predicate
@@ -212,7 +212,7 @@ Gets the count of item stacks matching the specified predicate
 ### loopInventory()
 
 ```java
-public , static void loopInventory(BiFunction<Integer, ItemStack, Boolean> consumer, boolean includeInventory, boolean includeOffhand, boolean includeHotbar, boolean hotbarPriority)
+public static void loopInventory(BiFunction<Integer, ItemStack, Boolean> consumer, boolean includeInventory, boolean includeOffhand, boolean includeHotbar, boolean hotbarPriority)
 ```
 
 **Parameter `consumer`**: the consumer to apply to each slot
@@ -234,7 +234,7 @@ public , static void loopInventory(BiFunction<Integer, ItemStack, Boolean> consu
 ### isInventoryFull()
 
 ```java
-public , static boolean isInventoryFull()
+public static boolean isInventoryFull()
 ```
 
 **Returns:** [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html)
@@ -242,7 +242,7 @@ public , static boolean isInventoryFull()
 ### getInventorySlot()
 
 ```java
-public , static int getInventorySlot(EquipmentSlot equipmentSlot)
+public static int getInventorySlot(EquipmentSlot equipmentSlot)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)
@@ -250,7 +250,7 @@ public , static int getInventorySlot(EquipmentSlot equipmentSlot)
 ### getEquipmentSlot()
 
 ```java
-public , static EquipmentSlot getEquipmentSlot(int slot)
+public static EquipmentSlot getEquipmentSlot(int slot)
 ```
 
 **Returns:** `EquipmentSlot`
@@ -258,7 +258,7 @@ public , static EquipmentSlot getEquipmentSlot(int slot)
 ### invToHotbarSlot()
 
 ```java
-public , static int invToHotbarSlot(int slot)
+public static int invToHotbarSlot(int slot)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)
@@ -266,7 +266,7 @@ public , static int invToHotbarSlot(int slot)
 ### hotbarToInvSlot()
 
 ```java
-public , static int hotbarToInvSlot(int slot)
+public static int hotbarToInvSlot(int slot)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)

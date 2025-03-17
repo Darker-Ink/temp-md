@@ -17,7 +17,7 @@ Class to handle keybindings
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| BIND_REGISTRY | `Object2ObjectMap`<[IBindable](/core/bind/IBindable.md), [IKey](/core/bind/key/IKey.md)> | private , final |
+| BIND_REGISTRY | `Object2ObjectMap`<[IBindable](/core/bind/IBindable.md), [IKey](/core/bind/key/IKey.md)> | private final |
 
 
 ## Methods

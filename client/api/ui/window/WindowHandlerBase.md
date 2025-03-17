@@ -23,7 +23,7 @@ public WindowHandlerBase()
 ### getViewHandler()
 
 ```java
-public , abstract WindowViewHandlerBase getViewHandler()
+public abstract WindowViewHandlerBase getViewHandler()
 ```
 
 Returns the view handler of this window handler.
@@ -36,7 +36,7 @@ Returns the view handler of this window handler.
 ### getContentHandler()
 
 ```java
-public , abstract WindowContentHandlerBase getContentHandler()
+public abstract WindowContentHandlerBase getContentHandler()
 ```
 
 Returns the content handler of this window handler.
@@ -49,7 +49,7 @@ Returns the content handler of this window handler.
 ### renderWindowFrame()
 
 ```java
-public , abstract void renderWindowFrame(Window window, double mouseX, double mouseY)
+public abstract void renderWindowFrame(Window window, double mouseX, double mouseY)
 ```
 
 Renders the frame of a window.
@@ -66,7 +66,7 @@ Renders the frame of a window.
 ### getFramePadding()
 
 ```java
-public , abstract int getFramePadding(WindowSide side)
+public abstract int getFramePadding(WindowSide side)
 ```
 
 Returns the frame padding of a side of a window.

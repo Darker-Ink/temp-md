@@ -27,7 +27,7 @@ public EventPlayerUpdate(LocalPlayer player)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| player | `LocalPlayer` | private , final |
+| player | `LocalPlayer` | private final |
 | yaw | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private |
 | pitch | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private |
 | x | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |

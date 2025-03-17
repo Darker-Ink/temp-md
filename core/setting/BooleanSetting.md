@@ -26,8 +26,8 @@ public BooleanSetting(String name, String description, Boolean value)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| TRUE_ALIASES | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , static , final |
-| FALSE_ALIASES | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , static , final |
+| TRUE_ALIASES | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private static final |
+| FALSE_ALIASES | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private static final |
 
 
 ## Methods

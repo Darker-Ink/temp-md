@@ -22,10 +22,10 @@ public ShortListHudElement(String name)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| COMMA_SEPARATOR_COMPONENT | `Component` | public , static , final |
-| PADDING | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | public , static , final |
-| color | [ColorSetting](/client/api/setting/ColorSetting.md) | private , final |
-| axis | [EnumSetting](/core/setting/EnumSetting.md)<[TextAxis](/client/api/feature/hud/TextAxis.md)> | private , final |
+| COMMA_SEPARATOR_COMPONENT | `Component` | public static final |
+| PADDING | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | public static final |
+| color | [ColorSetting](/client/api/setting/ColorSetting.md) | private final |
+| axis | [EnumSetting](/core/setting/EnumSetting.md)<[TextAxis](/client/api/feature/hud/TextAxis.md)> | private final |
 | list | `Component` | private |
 | width | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | height | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
@@ -36,7 +36,7 @@ public ShortListHudElement(String name)
 ### getComponents()
 
 ```java
-public , abstract Component[] getComponents()
+public abstract Component[] getComponents()
 ```
 
 **Returns:** `Component`[]

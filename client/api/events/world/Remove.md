@@ -18,7 +18,7 @@ public Remove(Entity entity, Entity.RemovalReason reason)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| reason | `Entity.RemovalReason` | private , final |
+| reason | `Entity.RemovalReason` | private final |
 
 
 ## Methods

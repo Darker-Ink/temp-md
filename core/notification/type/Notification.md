@@ -27,9 +27,9 @@ public Notification(String text, NotificationType type, int id)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| text | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
-| type | [NotificationType](/core/notification/NotificationType.md) | private , final |
-| id | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private , final |
+| text | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
+| type | [NotificationType](/core/notification/NotificationType.md) | private final |
+| id | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
 
 
 ## Methods

@@ -22,8 +22,8 @@ public PaddingContent(Window window, double width, double height)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| width | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
-| height | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
+| width | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
+| height | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
 
 
 ## Methods

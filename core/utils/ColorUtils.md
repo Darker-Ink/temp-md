@@ -17,7 +17,7 @@ Helper class containing color related functions
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| COLOR_MAP | `HashMap`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)[], `Color`> | public , static , final |
+| COLOR_MAP | `HashMap`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)[], `Color`> | public static final |
 
 
 ## Methods
@@ -25,7 +25,7 @@ Helper class containing color related functions
 ### getRainbow()
 
 ```java
-public , static Color getRainbow(long timeOffsetMs, float speed, float saturation, float brightness)
+public static Color getRainbow(long timeOffsetMs, float speed, float saturation, float brightness)
 ```
 
 **Returns:** `Color`
@@ -33,7 +33,7 @@ public , static Color getRainbow(long timeOffsetMs, float speed, float saturatio
 ### getRainbowRGB()
 
 ```java
-public , static int getRainbowRGB(long timeOffsetMs, float speed, float saturation, float brightness)
+public static int getRainbowRGB(long timeOffsetMs, float speed, float saturation, float brightness)
 ```
 
 Generates a rainbow color.
@@ -58,7 +58,7 @@ Generates a rainbow color.
 ### getGradient()
 
 ```java
-public , static Color getGradient(Color[] colors, long timeOffsetMs, float speed)
+public static Color getGradient(Color[] colors, long timeOffsetMs, float speed)
 ```
 
 **Returns:** `Color`
@@ -66,7 +66,7 @@ public , static Color getGradient(Color[] colors, long timeOffsetMs, float speed
 ### getGradientRGB()
 
 ```java
-public , static int getGradientRGB(Color[] colors, long timeOffsetMs, float speed)
+public static int getGradientRGB(Color[] colors, long timeOffsetMs, float speed)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)
@@ -74,7 +74,7 @@ public , static int getGradientRGB(Color[] colors, long timeOffsetMs, float spee
 ### getGradientRGB()
 
 ```java
-public , static int getGradientRGB(int[] colors, long timeOffsetMs, float speed)
+public static int getGradientRGB(int[] colors, long timeOffsetMs, float speed)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)
@@ -82,7 +82,7 @@ public , static int getGradientRGB(int[] colors, long timeOffsetMs, float speed)
 ### blendColors()
 
 ```java
-public , static int blendColors(int[] colors, float fraction)
+public static int blendColors(int[] colors, float fraction)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)
@@ -90,7 +90,7 @@ public , static int blendColors(int[] colors, float fraction)
 ### transparency()
 
 ```java
-public , static Color transparency(Color c, int alpha)
+public static Color transparency(Color c, int alpha)
 ```
 
 **Returns:** `Color`
@@ -98,7 +98,7 @@ public , static Color transparency(Color c, int alpha)
 ### transparency()
 
 ```java
-public , static Color transparency(Color c, float alpha)
+public static Color transparency(Color c, float alpha)
 ```
 
 **Returns:** `Color`
@@ -106,7 +106,7 @@ public , static Color transparency(Color c, float alpha)
 ### transparency()
 
 ```java
-public , static int transparency(int c, int alpha)
+public static int transparency(int c, int alpha)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)
@@ -114,7 +114,7 @@ public , static int transparency(int c, int alpha)
 ### transparency()
 
 ```java
-public , static int transparency(int c, float alpha)
+public static int transparency(int c, float alpha)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)
@@ -122,7 +122,7 @@ public , static int transparency(int c, float alpha)
 ### brightness()
 
 ```java
-public , static int brightness(int c, float factor)
+public static int brightness(int c, float factor)
 ```
 
 Does not use alpha
@@ -132,7 +132,7 @@ Does not use alpha
 ### getRGBA()
 
 ```java
-public , static float[] getRGBA(int color)
+public static float[] getRGBA(int color)
 ```
 
 **Returns:** [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html)[]
@@ -140,7 +140,7 @@ public , static float[] getRGBA(int color)
 ### getHex()
 
 ```java
-public , static int getHex(int red, int green, int blue, int alpha)
+public static int getHex(int red, int green, int blue, int alpha)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)
@@ -148,7 +148,7 @@ public , static int getHex(int red, int green, int blue, int alpha)
 ### interpolateColor()
 
 ```java
-public , static int interpolateColor(int start, int end, double fraction)
+public static int interpolateColor(int start, int end, double fraction)
 ```
 
 **Returns:** [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html)
@@ -156,7 +156,7 @@ public , static int interpolateColor(int start, int end, double fraction)
 ### parseColor()
 
 ```java
-public , static Color parseColor(String col)
+public static Color parseColor(String col)
 ```
 
 Get a color from its name or color code

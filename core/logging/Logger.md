@@ -35,9 +35,9 @@ public Logger(String name, ILogger parentLogger, Path logDirectory)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
-| parentLogger | [ILogger](/core/logging/ILogger.md) | private , final |
-| outputs | `List`<[ILog](/core/logging/ILog.md)> | protected , final |
+| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
+| parentLogger | [ILogger](/core/logging/ILogger.md) | private final |
+| outputs | `List`<[ILog](/core/logging/ILog.md)> | protected final |
 
 
 ## Methods

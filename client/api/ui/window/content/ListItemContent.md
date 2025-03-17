@@ -18,7 +18,7 @@ public ListItemContent(Window window, ListView<?> listView)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| listView | [ListView](/client/api/ui/window/view/ListView.md)<`?`> | private , final |
+| listView | [ListView](/client/api/ui/window/view/ListView.md)<`?`> | private final |
 | timeSinceLastClick | [long](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html) | private |
 
 
@@ -27,7 +27,7 @@ public ListItemContent(Window window, ListView<?> listView)
 ### getAsString()
 
 ```java
-public , abstract String getAsString(ListView<?>.Column column)
+public abstract String getAsString(ListView<?>.Column column)
 ```
 
 **Returns:** [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)

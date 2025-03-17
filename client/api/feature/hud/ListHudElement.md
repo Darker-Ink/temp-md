@@ -31,12 +31,12 @@ public ListHudElement(String name, boolean sorting)
 | height | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | cache | `List`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private |
 | members | `List`<[ListItem](/client/api/feature/hud/ListItem.md)> | private |
-| sorting | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private , final |
+| sorting | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private final |
 | max | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private |
-| color | [ColorSetting](/client/api/setting/ColorSetting.md) | protected , final |
-| colorMode | [EnumSetting](/core/setting/EnumSetting.md)<[ColorMode](/client/api/system/ColorMode.md)> | protected , final |
-| sortMode | [EnumSetting](/core/setting/EnumSetting.md)<[SortingMode](/client/api/feature/hud/SortingMode.md)> | protected , final |
-| animations | [BooleanSetting](/core/setting/BooleanSetting.md) | protected , final |
+| color | [ColorSetting](/client/api/setting/ColorSetting.md) | protected final |
+| colorMode | [EnumSetting](/core/setting/EnumSetting.md)<[ColorMode](/client/api/system/ColorMode.md)> | protected final |
+| sortMode | [EnumSetting](/core/setting/EnumSetting.md)<[SortingMode](/client/api/feature/hud/SortingMode.md)> | protected final |
+| animations | [BooleanSetting](/core/setting/BooleanSetting.md) | protected final |
 
 
 ## Methods

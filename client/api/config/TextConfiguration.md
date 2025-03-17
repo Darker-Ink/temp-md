@@ -30,7 +30,7 @@ public TextConfiguration(File file)
 ### createConfiguration()
 
 ```java
-public , static TextConfiguration createConfiguration(String name)
+public static TextConfiguration createConfiguration(String name)
 ```
 
 **Returns:** [TextConfiguration](/client/api/config/TextConfiguration.md)
@@ -38,7 +38,7 @@ public , static TextConfiguration createConfiguration(String name)
 ### createConfiguration()
 
 ```java
-public , static TextConfiguration createConfiguration(String parentDirectory, String name)
+public static TextConfiguration createConfiguration(String parentDirectory, String name)
 ```
 
 **Returns:** [TextConfiguration](/client/api/config/TextConfiguration.md)

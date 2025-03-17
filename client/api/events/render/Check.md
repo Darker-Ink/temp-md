@@ -18,7 +18,7 @@ public Check(Entity entity, boolean shouldShowName)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| entity | `Entity` | private , final |
+| entity | `Entity` | private final |
 | shouldShowName | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 
 

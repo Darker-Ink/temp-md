@@ -22,9 +22,9 @@ public ListView(String name, Window window, List<T> items)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| itemView | [ListItemView](/client/api/ui/window/view/ListItemView.md) | private , final |
-| items | `List`<`T`> | private , final |
-| columns | `List`<[Column](/client/api/ui/window/view/Column.md)> | private , final |
+| itemView | [ListItemView](/client/api/ui/window/view/ListItemView.md) | private final |
+| items | `List`<`T`> | private final |
+| columns | `List`<[Column](/client/api/ui/window/view/Column.md)> | private final |
 | sortColumn | [Column](/client/api/ui/window/view/Column.md) | private |
 | sortAscending | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | selectedItem | `T` | private |

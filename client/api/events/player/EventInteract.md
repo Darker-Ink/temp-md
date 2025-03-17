@@ -23,10 +23,10 @@ public EventInteract(Entity entity, InteractionHand hand, boolean usingSecondary
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| targetEntity | `Entity` | private , final |
-| hand | `InteractionHand` | private , final |
-| action | [Action](/client/api/events/player/Action.md) | private , final |
-| hitResult | `EntityHitResult` | private , final |
+| targetEntity | `Entity` | private final |
+| hand | `InteractionHand` | private final |
+| action | [Action](/client/api/events/player/Action.md) | private final |
+| hitResult | `EntityHitResult` | private final |
 | usingSecondaryAction | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 
 

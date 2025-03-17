@@ -18,11 +18,11 @@ public Nametag(Entity entity, Component displayName, PoseStack matrixStack, Mult
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| entity | `Entity` | private , final |
+| entity | `Entity` | private final |
 | displayName | `Component` | private |
-| matrixStack | `PoseStack` | private , final |
-| buffer | `MultiBufferSource` | private , final |
-| packedLight | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private , final |
+| matrixStack | `PoseStack` | private final |
+| buffer | `MultiBufferSource` | private final |
+| packedLight | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
 
 
 ## Methods

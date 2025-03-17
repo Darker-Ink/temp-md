@@ -24,7 +24,7 @@ Various easing functions to use for animations
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| function | `Function`<`Double`, `Double`> | private , final |
+| function | `Function`<`Double`, `Double`> | private final |
 
 
 ## Constants

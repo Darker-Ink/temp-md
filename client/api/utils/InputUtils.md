@@ -18,7 +18,7 @@ Helper class containing input related functions
 ### getMouseX()
 
 ```java
-public , static double getMouseX()
+public static double getMouseX()
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)
@@ -26,7 +26,7 @@ public , static double getMouseX()
 ### getMouseY()
 
 ```java
-public , static double getMouseY()
+public static double getMouseY()
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)

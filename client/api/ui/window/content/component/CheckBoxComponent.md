@@ -26,7 +26,7 @@ public CheckBoxComponent(Window window, double size, String label, boolean value
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| size | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
+| size | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
 | label | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private |
 | value | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | valueConsumer | `Consumer`<`Boolean`> | private |

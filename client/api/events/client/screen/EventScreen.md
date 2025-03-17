@@ -22,7 +22,7 @@ public EventScreen(Screen screen)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| screen | `Screen` | private , final |
+| screen | `Screen` | private final |
 
 
 ## Methods

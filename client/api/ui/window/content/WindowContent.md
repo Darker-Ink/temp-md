@@ -23,7 +23,7 @@ public WindowContent(Window window)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| window | [Window](/client/api/feature/window/Window.md) | private , final |
+| window | [Window](/client/api/feature/window/Window.md) | private final |
 | x | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | protected |
 | y | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | protected |
 | contextMenu | `List`<[ContextAction](/client/api/ui/window/context/ContextAction.md)> | protected |
@@ -34,13 +34,13 @@ public WindowContent(Window window)
 ### renderContent()
 
 ```java
-public , abstract void renderContent(double mouseX, double mouseY, WindowView parent)
+public abstract void renderContent(double mouseX, double mouseY, WindowView parent)
 ```
 
 ### getWidth()
 
 ```java
-public , abstract double getWidth()
+public abstract double getWidth()
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)
@@ -48,7 +48,7 @@ public , abstract double getWidth()
 ### getHeight()
 
 ```java
-public , abstract double getHeight()
+public abstract double getHeight()
 ```
 
 **Returns:** [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)

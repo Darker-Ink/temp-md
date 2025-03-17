@@ -23,16 +23,16 @@ public HudElement(String name)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
+| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 | toggled | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | description | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private |
-| settings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private , final |
+| settings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private final |
 | snapPoint | [SnapPoint](/client/api/feature/hud/SnapPoint.md) | private |
 | alignment | [Alignment](/client/api/feature/hud/Alignment.md) | protected |
 | dragging | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | dragDeltaX | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | dragDeltaY | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
-| logger | [ILogger](/core/logging/ILogger.md) | protected , final |
+| logger | [ILogger](/core/logging/ILogger.md) | protected final |
 
 
 ## Methods
@@ -306,7 +306,7 @@ public Alignment getAlignment()
 ### calculateAlignment()
 
 ```java
-public , static Alignment calculateAlignment(HudElement element)
+public static Alignment calculateAlignment(HudElement element)
 ```
 
 **Returns:** [Alignment](/client/api/feature/hud/Alignment.md)
@@ -314,7 +314,7 @@ public , static Alignment calculateAlignment(HudElement element)
 ### calculateAlignment()
 
 ```java
-public , static Alignment calculateAlignment(double x, double y)
+public static Alignment calculateAlignment(double x, double y)
 ```
 
 **Returns:** [Alignment](/client/api/feature/hud/Alignment.md)

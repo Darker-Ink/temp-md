@@ -18,8 +18,8 @@ public Background(Screen screen, GuiGraphics graphics)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| screen | `Screen` | private , final |
-| graphics | `GuiGraphics` | private , final |
+| screen | `Screen` | private final |
+| graphics | `GuiGraphics` | private final |
 
 
 ## Methods

@@ -34,7 +34,7 @@ public RenderableNotification(Component component, NotificationType type, int id
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| component | `Component` | private , final |
+| component | `Component` | private final |
 
 
 ## Methods

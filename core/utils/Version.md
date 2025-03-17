@@ -22,9 +22,9 @@ public Version(int major, int minor, int patch)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| major | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private , final |
-| minor | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private , final |
-| patch | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private , final |
+| major | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
+| minor | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
+| patch | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
 
 
 ## Methods
@@ -88,7 +88,7 @@ public int hashCode()
 ### fromString()
 
 ```java
-public , static Version fromString(String version)
+public static Version fromString(String version)
 ```
 
 **Returns:** [Version](/core/utils/Version.md)

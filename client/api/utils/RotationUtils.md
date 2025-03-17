@@ -17,7 +17,7 @@
 ### getRotations()
 
 ```java
-public , static float[] getRotations(Vec3 vec)
+public static float[] getRotations(Vec3 vec)
 ```
 
 **Returns:** [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html)[]

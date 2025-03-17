@@ -31,8 +31,8 @@ public RichTextView(String name, Window window)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| textComponents | `List`<[RichTextComponent](/client/api/ui/window/view/RichTextComponent.md)> | private , final |
-| queue | `Queue`<[RichTextComponent](/client/api/ui/window/view/RichTextComponent.md)> | private , final |
+| textComponents | `List`<[RichTextComponent](/client/api/ui/window/view/RichTextComponent.md)> | private final |
+| queue | `Queue`<[RichTextComponent](/client/api/ui/window/view/RichTextComponent.md)> | private final |
 
 
 ## Methods

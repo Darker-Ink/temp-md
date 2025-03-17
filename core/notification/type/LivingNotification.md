@@ -31,8 +31,8 @@ public LivingNotification(String text, NotificationType type, int id)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| timer | [Timer](/core/utils/Timer.md) | private , final |
-| lifeSpan | [long](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html) | private , final |
+| timer | [Timer](/core/utils/Timer.md) | private final |
+| lifeSpan | [long](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html) | private final |
 | shouldKill | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 
 

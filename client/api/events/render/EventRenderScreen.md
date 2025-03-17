@@ -22,11 +22,11 @@ public EventRenderScreen(Screen screen, GuiGraphics graphics, int mouseX, int mo
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| screen | `Screen` | private , final |
-| graphics | `GuiGraphics` | private , final |
-| mouseX | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private , final |
-| mouseY | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private , final |
-| partialTick | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private , final |
+| screen | `Screen` | private final |
+| graphics | `GuiGraphics` | private final |
+| mouseX | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
+| mouseY | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
+| partialTick | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private final |
 
 
 ## Methods

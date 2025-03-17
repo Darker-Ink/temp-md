@@ -23,7 +23,7 @@ public Scrollbar(Animation animation)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| animation | [Animation](/core/animation/Animation.md) | private , final |
+| animation | [Animation](/core/animation/Animation.md) | private final |
 | scrollOffset | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | targetScrollOffset | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 

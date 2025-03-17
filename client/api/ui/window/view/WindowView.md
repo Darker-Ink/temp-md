@@ -42,7 +42,7 @@ public WindowView(String name, Window window, List<? extends WindowContent> cont
 ### renderViewContent()
 
 ```java
-public , abstract void renderViewContent(double mouseX, double mouseY)
+public abstract void renderViewContent(double mouseX, double mouseY)
 ```
 
 ### renderContent()

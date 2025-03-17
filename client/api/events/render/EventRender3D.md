@@ -23,8 +23,8 @@ public EventRender3D(IRenderer3D renderer, PoseStack poseStack, Camera camera, f
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| renderer | [IRenderer3D](/client/api/render/IRenderer3D.md) | private , final |
-| camera | `Camera` | private , final |
+| renderer | [IRenderer3D](/client/api/render/IRenderer3D.md) | private final |
+| camera | `Camera` | private final |
 
 
 ## Methods

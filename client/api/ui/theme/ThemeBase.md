@@ -22,10 +22,10 @@ public ThemeBase(String name, String description, Color defaultColor)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
-| description | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
-| settings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private , final |
-| color | [ColorSetting](/client/api/setting/ColorSetting.md) | private , final |
+| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
+| description | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
+| settings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private final |
+| color | [ColorSetting](/client/api/setting/ColorSetting.md) | private final |
 
 
 ## Methods

@@ -23,7 +23,7 @@ public EventRender2D(GuiGraphics graphics, float partialTicks)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| renderContext | [RenderContext](/client/api/render/RenderContext.md) | private , final |
+| renderContext | [RenderContext](/client/api/render/RenderContext.md) | private final |
 
 
 ## Methods

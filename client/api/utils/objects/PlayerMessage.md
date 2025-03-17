@@ -23,8 +23,8 @@ public PlayerMessage(String sender, String message)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| sender | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
-| message | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
+| sender | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
+| message | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 
 
 ## Methods
@@ -48,7 +48,7 @@ public String getMessage()
 ### parse()
 
 ```java
-public , static PlayerMessage parse(String message, boolean strict)
+public static PlayerMessage parse(String message, boolean strict)
 ```
 
 Parses a message from chat

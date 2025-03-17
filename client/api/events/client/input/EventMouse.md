@@ -24,8 +24,8 @@ public EventMouse(double xPos, double yPos)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| xPos | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
-| yPos | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
+| xPos | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
+| yPos | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
 
 
 ## Methods

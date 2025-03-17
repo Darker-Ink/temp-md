@@ -26,7 +26,7 @@ public FileOutput(File file)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| DATE_FORMAT | `SimpleDateFormat` | public , static , final |
+| DATE_FORMAT | `SimpleDateFormat` | public static final |
 | file | `File` | private |
 
 

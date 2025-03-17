@@ -22,7 +22,7 @@ public PanelHandlerBase(boolean scaledWithMinecraftGui)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| panels | `List`<`T`> | protected , final |
+| panels | `List`<`T`> | protected final |
 
 
 ## Methods
@@ -30,7 +30,7 @@ public PanelHandlerBase(boolean scaledWithMinecraftGui)
 ### createPanel()
 
 ```java
-public , abstract T createPanel(String name)
+public abstract T createPanel(String name)
 ```
 
 Instantiates a panel with the given name

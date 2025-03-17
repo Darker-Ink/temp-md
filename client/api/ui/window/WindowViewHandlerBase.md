@@ -18,7 +18,7 @@ public WindowViewHandlerBase(WindowHandlerBase windowHandler)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| windowHandler | [WindowHandlerBase](/client/api/ui/window/WindowHandlerBase.md) | protected , final |
+| windowHandler | [WindowHandlerBase](/client/api/ui/window/WindowHandlerBase.md) | protected final |
 
 
 ## Methods

@@ -96,7 +96,7 @@ default void debug(String message, boolean separators)
 ### constructLogRecord()
 
 ```java
-private , static LogRecord constructLogRecord(Level level, String message, Object args)
+private static LogRecord constructLogRecord(Level level, String message, Object args)
 ```
 
 **Returns:** `LogRecord`

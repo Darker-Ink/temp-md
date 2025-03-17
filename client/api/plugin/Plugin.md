@@ -23,7 +23,7 @@ public Plugin()
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| logger | [ILogger](/core/logging/ILogger.md) | protected , final |
+| logger | [ILogger](/core/logging/ILogger.md) | protected final |
 
 
 ## Methods

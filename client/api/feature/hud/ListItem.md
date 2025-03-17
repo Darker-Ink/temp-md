@@ -23,8 +23,8 @@ public ListItem(ListHudElement parent)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| parent | [ListHudElement](/client/api/feature/hud/ListHudElement.md) | private , final |
-| animation | [Animation](/core/animation/Animation.md) | private , final |
+| parent | [ListHudElement](/client/api/feature/hud/ListHudElement.md) | private final |
+| animation | [Animation](/core/animation/Animation.md) | private final |
 | markedForRemoval | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 
 
@@ -33,7 +33,7 @@ public ListItem(ListHudElement parent)
 ### getText()
 
 ```java
-public , abstract Component getText()
+public abstract Component getText()
 ```
 
 **Returns**: The text that will represent this item
@@ -45,7 +45,7 @@ public , abstract Component getText()
 ### shouldRemove()
 
 ```java
-public , abstract boolean shouldRemove()
+public abstract boolean shouldRemove()
 ```
 
 **Returns**: the condition that must be met to remove this item

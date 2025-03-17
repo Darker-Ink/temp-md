@@ -26,14 +26,14 @@ public TextFieldComponent(Window window, String label, double width, boolean cen
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| textField | [TextField](/client/api/utils/objects/TextField.md) | private , final |
+| textField | [TextField](/client/api/utils/objects/TextField.md) | private final |
 | label | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private |
-| censored | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private , final |
+| censored | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private final |
 | focused | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
-| inputDelay | [Timer](/core/utils/Timer.md) | private , final |
+| inputDelay | [Timer](/core/utils/Timer.md) | private final |
 | width | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
-| heightRatio | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private , final |
-| cursorBlinkTimer | [Timer](/core/utils/Timer.md) | private , final |
+| heightRatio | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
+| cursorBlinkTimer | [Timer](/core/utils/Timer.md) | private final |
 | blink | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | returnCallback | `Consumer`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private |
 | characterFilter | `Predicate`<`Character`> | private |

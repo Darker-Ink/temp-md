@@ -22,8 +22,8 @@ public EventRender(PoseStack poseStack, float partialTicks)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| matrixStack | `PoseStack` | private , final |
-| partialTicks | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private , final |
+| matrixStack | `PoseStack` | private final |
+| partialTicks | [float](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html) | private final |
 
 
 ## Methods

@@ -23,7 +23,7 @@ public EventInputTick(ClientInput input)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| input | `ClientInput` | private , final |
+| input | `ClientInput` | private final |
 
 
 ## Methods

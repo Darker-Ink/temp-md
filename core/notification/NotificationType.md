@@ -22,8 +22,8 @@
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| typeID | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private , final |
-| lifeSpan | [long](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html) | private , final |
+| typeID | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
+| lifeSpan | [long](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html) | private final |
 
 
 ## Constants
@@ -69,7 +69,7 @@ public long getLifeSpan()
 ### fromTypeID()
 
 ```java
-public , static NotificationType fromTypeID(int typeID)
+public static NotificationType fromTypeID(int typeID)
 ```
 
 **Returns:** [NotificationType](/core/notification/NotificationType.md)

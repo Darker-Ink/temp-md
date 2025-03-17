@@ -27,13 +27,13 @@ public Setting(String name, String description, T value)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private , final |
+| name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 | displayName | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private |
 | description | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private |
 | value | `T` | private |
 | defaultValue | `T` | private |
 | hidden | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
-| subSettings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private , final |
+| subSettings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private final |
 | parent | [Setting](/core/setting/Setting.md)<`?`> | private |
 | consumer | `Consumer`<`T`> | private |
 | visibilityTest | `BooleanSupplier` | private |
@@ -95,7 +95,7 @@ public void setDefaultValue(T value)
 ### parseValue()
 
 ```java
-public , abstract T parseValue(String string, boolean set)
+public abstract T parseValue(String string, boolean set)
 ```
 
 Parses a string into a value for this setting
@@ -122,7 +122,7 @@ public T getValue()
 ### getDisplayValue()
 
 ```java
-public , abstract String getDisplayValue()
+public abstract String getDisplayValue()
 ```
 
 **Returns:** [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)
@@ -291,7 +291,7 @@ public Setting<T> setShouldSerialize(boolean shouldSerialize)
 ### deserializeValue()
 
 ```java
-public , abstract boolean deserializeValue(JsonElement json)
+public abstract boolean deserializeValue(JsonElement json)
 ```
 
 **Returns:** [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html)
@@ -299,7 +299,7 @@ public , abstract boolean deserializeValue(JsonElement json)
 ### serializeValue()
 
 ```java
-public , abstract JsonElement serializeValue()
+public abstract JsonElement serializeValue()
 ```
 
 **Returns:** `JsonElement`

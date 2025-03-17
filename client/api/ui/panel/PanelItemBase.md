@@ -22,9 +22,9 @@ public PanelItemBase(PanelBase<?> panel, T parent)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| panel | [PanelBase](/client/api/ui/panel/PanelBase.md)<`?`> | protected , final |
-| parent | `T` | protected , final |
-| subItems | `List`<`T`> | protected , final |
+| panel | [PanelBase](/client/api/ui/panel/PanelBase.md)<`?`> | protected final |
+| parent | `T` | protected final |
+| subItems | `List`<`T`> | protected final |
 
 
 ## Methods

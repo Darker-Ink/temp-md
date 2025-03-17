@@ -23,8 +23,8 @@ Points at which hud elements are able to "snap" to
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| x | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | public , final |
-| y | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | public , final |
+| x | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | public final |
+| y | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | public final |
 
 
 ## Constants

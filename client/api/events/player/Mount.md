@@ -20,7 +20,7 @@ public Mount(Entity entity, Vec3 motion)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| entity | `Entity` | private , final |
+| entity | `Entity` | private final |
 
 
 ## Methods
