@@ -20,7 +20,7 @@
  List<GuiMessage.Line> getTrimmedMessages()
 ```
 
-**Returns:** `List`<`GuiMessage.Line`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`GuiMessage.Line`>
 
 ### getAllMessages()
 
@@ -28,7 +28,7 @@
  List<GuiMessage> getAllMessages()
 ```
 
-**Returns:** `List`<`GuiMessage`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`GuiMessage`>
 
 ### getChatScrollbarPos()
 

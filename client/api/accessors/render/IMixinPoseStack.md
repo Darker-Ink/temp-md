@@ -20,7 +20,7 @@
  Deque<PoseStack.Pose> getPoseStack()
 ```
 
-**Returns:** `Deque`<`PoseStack.Pose`>
+**Returns:** [Deque](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Deque.html)<`PoseStack.Pose`>
 
 ### setPoseStack()
 

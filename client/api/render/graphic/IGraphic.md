@@ -21,7 +21,7 @@ Interface for graphics that can be rendered
  InputStream getInputStream()
 ```
 
-**Returns:** `InputStream`
+**Returns:** [InputStream](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/InputStream.html)
 
 ### getWidth()
 

@@ -31,7 +31,7 @@ public AbstractCommand(String name, String description)
 |------|------|----------|
 | name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 | description | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
-| aliases | `List`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private final |
+| aliases | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private final |
 
 
 ## Methods

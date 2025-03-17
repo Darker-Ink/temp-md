@@ -24,7 +24,7 @@ public static List<Entity> getEntities()
 
 
 
-**Returns:** `List`<`Entity`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`Entity`>
 
 ### getEntities()
 
@@ -36,7 +36,7 @@ public static List<Entity> getEntities(Predicate<Entity> predicate)
 
 
 
-**Returns:** `List`<`Entity`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`Entity`>
 
 ### getEntitiesSorted()
 
@@ -48,7 +48,7 @@ public static List<Entity> getEntitiesSorted()
 
 
 
-**Returns:** `List`<`Entity`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`Entity`>
 
 ### getEntitiesSorted()
 
@@ -60,7 +60,7 @@ public static List<Entity> getEntitiesSorted(Entity entity)
 
 
 
-**Returns:** `List`<`Entity`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`Entity`>
 
 ### getEntitiesSorted()
 
@@ -72,7 +72,7 @@ public static List<Entity> getEntitiesSorted(Entity entity, Predicate<Entity> pr
 
 
 
-**Returns:** `List`<`Entity`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`Entity`>
 
 ### getChunks()
 
@@ -80,7 +80,7 @@ public static List<Entity> getEntitiesSorted(Entity entity, Predicate<Entity> pr
 public static List<LevelChunk> getChunks()
 ```
 
-**Returns:** `List`<`LevelChunk`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`LevelChunk`>
 
 ### getBlockEntities()
 
@@ -88,7 +88,7 @@ public static List<LevelChunk> getChunks()
 public static List<BlockEntity> getBlockEntities(boolean sorted)
 ```
 
-**Returns:** `List`<`BlockEntity`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`BlockEntity`>
 
 ### getSphere()
 
@@ -100,7 +100,7 @@ public static List<BlockPos> getSphere(Vec3i center, float sphereRadius)
 
 
 
-**Returns:** `List`<`BlockPos`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`BlockPos`>
 
 ### getSphere()
 
@@ -115,7 +115,7 @@ public static List<BlockPos> getSphere(Vec3i center, float sphereRadius, Predica
 
 
 
-**Returns:** `List`<`BlockPos`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`BlockPos`>
 
 ### getCircle()
 
@@ -127,7 +127,7 @@ public static List<BlockPos> getCircle(Vec3i center, float circleRadius)
 
 
 
-**Returns:** `List`<`BlockPos`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`BlockPos`>
 
 ### isReplaceble()
 

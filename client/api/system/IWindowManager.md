@@ -73,5 +73,5 @@ default Window getFocusedWindow()
 default List<Window> getVisibleWindows()
 ```
 
-**Returns:** `List`<[Window](/client/api/feature/window/Window.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Window](/client/api/feature/window/Window.md)>
 

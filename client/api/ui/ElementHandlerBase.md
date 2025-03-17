@@ -43,7 +43,7 @@ public abstract List<T> getElements()
 
 
 
-**Returns:** `List`<`T`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`T`>
 
 ### getElement()
 
@@ -59,7 +59,7 @@ Finds an element given it's name
 
 
 
-**Returns:** `Optional`<`T`>
+**Returns:** [Optional](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html)<`T`>
 
 ### initialize()
 

@@ -27,7 +27,7 @@ public VectorGraphic(InputStream inputStream, int width, int height)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| inputStream | `InputStream` | private final |
+| inputStream | [InputStream](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/InputStream.html) | private final |
 | width | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
 | height | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
 | svgWidth | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private |
@@ -42,7 +42,7 @@ public VectorGraphic(InputStream inputStream, int width, int height)
 public InputStream getInputStream()
 ```
 
-**Returns:** `InputStream`
+**Returns:** [InputStream](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/InputStream.html)
 
 ### getWidth()
 

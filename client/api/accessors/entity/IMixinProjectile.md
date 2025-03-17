@@ -20,5 +20,5 @@
  UUID getOwnerUUID()
 ```
 
-**Returns:** `UUID`
+**Returns:** [UUID](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/UUID.html)
 

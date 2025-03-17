@@ -221,7 +221,7 @@ Sets the default shadow state to be used whenever the shadow parameter is not sp
 default List<String> splitString(String string, double maxWidth)
 ```
 
-**Returns:** `List`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)>
 
 ### trimStringToWidth()
 

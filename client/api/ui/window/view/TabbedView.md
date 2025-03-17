@@ -51,7 +51,7 @@ public List<WindowContent> getContent()
 
 
 
-**Returns:** `List`<[WindowContent](/client/api/ui/window/content/WindowContent.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[WindowContent](/client/api/ui/window/content/WindowContent.md)>
 
 ### setActiveTabView()
 
@@ -73,7 +73,7 @@ public WindowView getActiveTabView()
 public List<WindowView> getTabs()
 ```
 
-**Returns:** `List`<[WindowView](/client/api/ui/window/view/WindowView.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[WindowView](/client/api/ui/window/view/WindowView.md)>
 
 ### getTabViewHeight()
 

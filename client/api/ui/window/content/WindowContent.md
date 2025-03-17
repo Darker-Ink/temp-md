@@ -26,7 +26,7 @@ public WindowContent(Window window)
 | window | [Window](/client/api/feature/window/Window.md) | private final |
 | x | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | protected |
 | y | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | protected |
-| contextMenu | `List`<[ContextAction](/client/api/ui/window/context/ContextAction.md)> | protected |
+| contextMenu | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[ContextAction](/client/api/ui/window/context/ContextAction.md)> | protected |
 
 
 ## Methods
@@ -59,7 +59,7 @@ public abstract double getHeight()
 public List<ContextAction> getContextMenu()
 ```
 
-**Returns:** `List`<[ContextAction](/client/api/ui/window/context/ContextAction.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[ContextAction](/client/api/ui/window/context/ContextAction.md)>
 
 ### setContextMenu()
 

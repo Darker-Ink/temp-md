@@ -35,8 +35,8 @@ public TextFieldComponent(Window window, String label, double width, boolean cen
 | heightRatio | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
 | cursorBlinkTimer | [Timer](/core/utils/Timer.md) | private final |
 | blink | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
-| returnCallback | `Consumer`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private |
-| characterFilter | `Predicate`<`Character`> | private |
+| returnCallback | [Consumer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html)<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private |
+| characterFilter | [Predicate](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Predicate.html)<[Character](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Character.html)> | private |
 
 
 ## Methods

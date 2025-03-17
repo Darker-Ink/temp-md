@@ -33,7 +33,7 @@ public Module(String name, String description, ModuleCategory category)
 | hidden | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | notifications | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | listening | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
-| settings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private final |
+| settings | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>> | private final |
 | logger | [ILogger](/core/logging/ILogger.md) | protected final |
 
 
@@ -99,7 +99,7 @@ public void registerSettings(Setting<?> settings)
 public List<Setting<?>> getSettings()
 ```
 
-**Returns:** `List`<[Setting](/core/setting/Setting.md)<`?`>>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>>
 
 ### isHidden()
 

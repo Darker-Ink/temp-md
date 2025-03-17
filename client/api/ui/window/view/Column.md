@@ -29,7 +29,7 @@ public Column(String name, Comparator<T> comparator, double widthWeight)
 | Name | Type | Modifiers |
 |------|------|----------|
 | name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
-| comparator | `Comparator`<`T`> | private |
+| comparator | [Comparator](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Comparator.html)<`T`> | private |
 | widthWeight | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private final |
 
 
@@ -49,7 +49,7 @@ public String getName()
 public Comparator<T> getComparator()
 ```
 
-**Returns:** `Comparator`<`T`>
+**Returns:** [Comparator](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Comparator.html)<`T`>
 
 ### setComparator()
 

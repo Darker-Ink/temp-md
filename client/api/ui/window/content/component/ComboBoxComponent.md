@@ -30,7 +30,7 @@ public ComboBoxComponent(Window window, String[] options, int selected, Consumer
 | selected | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private |
 | height | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | isOpen | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
-| callback | `Consumer`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private |
+| callback | [Consumer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html)<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private |
 
 
 ## Methods
@@ -151,7 +151,7 @@ public void setOpen(boolean open)
 public Consumer<String> getCallback()
 ```
 
-**Returns:** `Consumer`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)>
+**Returns:** [Consumer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html)<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)>
 
 ### setCallback()
 

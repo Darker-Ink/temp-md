@@ -20,5 +20,5 @@
  Optional<? extends Holder<Instrument>> invokeGetInstrument(ItemStack stack, HolderLookup.Provider arg2)
 ```
 
-**Returns:** `Optional`<`? extends Holder`<`Instrument`>>
+**Returns:** [Optional](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html)<`? extends Holder`<`Instrument`>>
 

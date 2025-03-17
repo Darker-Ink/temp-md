@@ -12,7 +12,7 @@ Various easing functions to use for animations
 
 ## Overview
 
-`Easing` is a enum and implements `Function`.
+`Easing` is a enum and implements [Function](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Function.html).
 
 ## Constructor
 
@@ -24,7 +24,7 @@ Various easing functions to use for animations
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| function | `Function`<`Double`, `Double`> | private final |
+| function | [Function](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Function.html)<[Double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html), [Double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)> | private final |
 
 
 ## Constants
@@ -66,5 +66,5 @@ Arguments: x -> (Math.sin((x - 0.5) * Math.PI * 3) + 1) / 2
 public Double apply(Double input)
 ```
 
-**Returns:** `Double`
+**Returns:** [Double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)
 

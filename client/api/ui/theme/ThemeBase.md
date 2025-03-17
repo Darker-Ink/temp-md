@@ -24,7 +24,7 @@ public ThemeBase(String name, String description, Color defaultColor)
 |------|------|----------|
 | name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 | description | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
-| settings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private final |
+| settings | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>> | private final |
 | color | [ColorSetting](/client/api/setting/ColorSetting.md) | private final |
 
 
@@ -52,7 +52,7 @@ public String getDescription()
 public List<Setting<?>> getSettings()
 ```
 
-**Returns:** `List`<[Setting](/core/setting/Setting.md)<`?`>>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>>
 
 ### getColorSetting()
 

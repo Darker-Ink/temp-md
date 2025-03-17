@@ -20,5 +20,5 @@
  Map<UUID, LerpingBossEvent> getEvents()
 ```
 
-**Returns:** `Map`<`UUID`, `LerpingBossEvent`>
+**Returns:** [Map](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Map.html)<[UUID](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/UUID.html), `LerpingBossEvent`>
 

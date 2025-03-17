@@ -30,7 +30,7 @@ public ButtonComponent(Window window, String label, double width, double height,
 | label | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private |
 | width | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | height | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
-| enabledPredicate | `Predicate`<[ButtonComponent](/client/api/ui/window/content/component/ButtonComponent.md)> | private |
+| enabledPredicate | [Predicate](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Predicate.html)<[ButtonComponent](/client/api/ui/window/content/component/ButtonComponent.md)> | private |
 | pressed | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | clickAction | [Runnable](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Runnable.html) | private |
 

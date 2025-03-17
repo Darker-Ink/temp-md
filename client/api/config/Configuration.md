@@ -23,9 +23,9 @@ public Configuration(File file)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| CONFIG_DIRECTORY | `Path` | public static final |
+| CONFIG_DIRECTORY | [Path](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Path.html) | public static final |
 | logger | [ILogger](/core/logging/ILogger.md) | public final |
-| file | `File` | private final |
+| file | [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/File.html) | private final |
 
 
 ## Methods
@@ -48,7 +48,7 @@ public abstract void read(ISerializable<?> serializable)
 public File getFile()
 ```
 
-**Returns:** `File`
+**Returns:** [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/File.html)
 
 ### createTempFile()
 
@@ -56,5 +56,5 @@ public File getFile()
 protected File createTempFile()
 ```
 
-**Returns:** `File`
+**Returns:** [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/File.html)
 

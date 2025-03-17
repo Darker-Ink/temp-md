@@ -18,7 +18,7 @@ public BuildButtons(Screen screen, List<Renderable> renderables)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| renderables | `List`<`Renderable`> | private final |
+| renderables | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`Renderable`> | private final |
 
 
 ## Methods
@@ -29,7 +29,7 @@ public BuildButtons(Screen screen, List<Renderable> renderables)
 public List<Renderable> getElements()
 ```
 
-**Returns:** `List`<`Renderable`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`Renderable`>
 
 ### getStage()
 

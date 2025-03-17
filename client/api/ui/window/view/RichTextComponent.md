@@ -39,5 +39,5 @@ public void renderContent(double mouseX, double mouseY, WindowView parent)
 public List<ContextAction> getContextMenu()
 ```
 
-**Returns:** `List`<[ContextAction](/client/api/ui/window/context/ContextAction.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[ContextAction](/client/api/ui/window/context/ContextAction.md)>
 

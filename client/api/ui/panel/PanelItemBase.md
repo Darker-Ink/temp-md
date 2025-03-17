@@ -24,7 +24,7 @@ public PanelItemBase(PanelBase<?> panel, T parent)
 |------|------|----------|
 | panel | [PanelBase](/client/api/ui/panel/PanelBase.md)<`?`> | protected final |
 | parent | `T` | protected final |
-| subItems | `List`<`T`> | protected final |
+| subItems | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`T`> | protected final |
 
 
 ## Methods
@@ -41,7 +41,7 @@ public void addSubItem(T item)
 public List<T> getSubItemList()
 ```
 
-**Returns:** `List`<`T`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`T`>
 
 ### getPanel()
 

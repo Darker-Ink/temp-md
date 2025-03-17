@@ -33,7 +33,7 @@ public WindowView(String name, Window window, List<? extends WindowContent> cont
 |------|------|----------|
 | viewWidth | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | viewHeight | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
-| contentList | `List`<`? extends WindowContent`> | protected |
+| contentList | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`? extends WindowContent`> | protected |
 | viewName | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private |
 
 
@@ -159,7 +159,7 @@ public String getName()
 public List<WindowContent> getContent()
 ```
 
-**Returns:** `List`<[WindowContent](/client/api/ui/window/content/WindowContent.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[WindowContent](/client/api/ui/window/content/WindowContent.md)>
 
 ### setContentList()
 

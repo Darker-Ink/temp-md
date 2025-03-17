@@ -28,7 +28,7 @@ public ResizeableHudElement(String name)
 | resizeStartScale | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | resizeDeltaX | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | resizeDeltaY | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
-| scale | [NumberSetting](/core/setting/NumberSetting.md)<`Double`> | private final |
+| scale | [NumberSetting](/core/setting/NumberSetting.md)<[Double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html)> | private final |
 
 
 ## Methods

@@ -29,8 +29,8 @@ public ListHudElement(String name, boolean sorting)
 |------|------|----------|
 | width | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
 | height | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | private |
-| cache | `List`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private |
-| members | `List`<[ListItem](/client/api/feature/hud/ListItem.md)> | private |
+| cache | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private |
+| members | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[ListItem](/client/api/feature/hud/ListItem.md)> | private |
 | sorting | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private final |
 | max | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private |
 | color | [ColorSetting](/client/api/setting/ColorSetting.md) | protected final |
@@ -99,5 +99,5 @@ public double getHeight()
 public List<ListItem> getMembers()
 ```
 
-**Returns:** `List`<[ListItem](/client/api/feature/hud/ListItem.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[ListItem](/client/api/feature/hud/ListItem.md)>
 

@@ -33,9 +33,9 @@ public Setting(String name, String description, T value)
 | value | `T` | private |
 | defaultValue | `T` | private |
 | hidden | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
-| subSettings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private final |
+| subSettings | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>> | private final |
 | parent | [Setting](/core/setting/Setting.md)<`?`> | private |
-| consumer | `Consumer`<`T`> | private |
+| consumer | [Consumer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html)<`T`> | private |
 | visibilityTest | `BooleanSupplier` | private |
 | shouldSerialize | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 
@@ -190,7 +190,7 @@ public void addSubSettings(Setting<?> settings)
 public List<Setting<?>> getSubSettings()
 ```
 
-**Returns:** `List`<[Setting](/core/setting/Setting.md)<`?`>>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>>
 
 ### getAllSubSettings()
 
@@ -198,7 +198,7 @@ public List<Setting<?>> getSubSettings()
 public List<Setting<?>> getAllSubSettings()
 ```
 
-**Returns:** `List`<[Setting](/core/setting/Setting.md)<`?`>>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>>
 
 ### getSubSetting()
 
@@ -238,7 +238,7 @@ public Setting<T> onChange(Consumer<T> consumer)
 public Consumer<T> getConsumer()
 ```
 
-**Returns:** `Consumer`<`T`>
+**Returns:** [Consumer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html)<`T`>
 
 ### setVisibility()
 

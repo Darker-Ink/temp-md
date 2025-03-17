@@ -17,7 +17,7 @@ Helper class containing color related functions
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| COLOR_MAP | `HashMap`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)[], `Color`> | public static final |
+| COLOR_MAP | [HashMap](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/HashMap.html)<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)[], `Color`> | public static final |
 
 
 ## Methods

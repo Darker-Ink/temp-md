@@ -10,7 +10,7 @@
 
 ## Overview
 
-`Version` is a class and implements `Comparable`.
+`Version` is a class and implements [Comparable](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Comparable.html).
 
 ## Constructor
 

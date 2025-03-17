@@ -23,12 +23,12 @@ public ListView(String name, Window window, List<T> items)
 | Name | Type | Modifiers |
 |------|------|----------|
 | itemView | [ListItemView](/client/api/ui/window/view/ListItemView.md) | private final |
-| items | `List`<`T`> | private final |
-| columns | `List`<[Column](/client/api/ui/window/view/Column.md)> | private final |
+| items | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`T`> | private final |
+| columns | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Column](/client/api/ui/window/view/Column.md)> | private final |
 | sortColumn | [Column](/client/api/ui/window/view/Column.md) | private |
 | sortAscending | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 | selectedItem | `T` | private |
-| deleteCallback | `Consumer`<`T`> | private |
+| deleteCallback | [Consumer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html)<`T`> | private |
 
 
 ## Methods
@@ -57,7 +57,7 @@ public void resort()
 public List<Column> getColumns()
 ```
 
-**Returns:** `List`<[Column](/client/api/ui/window/view/Column.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Column](/client/api/ui/window/view/Column.md)>
 
 ### getColumnWidth()
 

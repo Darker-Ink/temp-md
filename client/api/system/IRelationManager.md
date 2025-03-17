@@ -100,7 +100,7 @@ default void removeEnemy(Entity entity)
  List<PlayerRelation> getFriends()
 ```
 
-**Returns:** `List`<[PlayerRelation](/client/api/utils/objects/PlayerRelation.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[PlayerRelation](/client/api/utils/objects/PlayerRelation.md)>
 
 ### getEnemies()
 
@@ -108,5 +108,5 @@ default void removeEnemy(Entity entity)
  List<PlayerRelation> getEnemies()
 ```
 
-**Returns:** `List`<[PlayerRelation](/client/api/utils/objects/PlayerRelation.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[PlayerRelation](/client/api/utils/objects/PlayerRelation.md)>
 

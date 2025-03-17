@@ -38,7 +38,7 @@ public HudHandlerBase(boolean scaledWithMinecraftGui)
 public List<HudElement> getElements()
 ```
 
-**Returns:** `List`<[HudElement](/client/api/feature/hud/HudElement.md)>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[HudElement](/client/api/feature/hud/HudElement.md)>
 
 ### moveElementToTop()
 

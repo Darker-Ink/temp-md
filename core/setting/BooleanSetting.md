@@ -62,7 +62,7 @@ public BooleanSetting setVisibility(BooleanSupplier tester)
 public Boolean parseValue(String string, boolean set)
 ```
 
-**Returns:** `Boolean`
+**Returns:** [Boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html)
 
 ### getDisplayValue()
 

@@ -30,7 +30,7 @@ public StringSetting(String name, String description, String value, String optio
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| options | `LinkedHashSet`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private final |
+| options | [LinkedHashSet](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/LinkedHashSet.html)<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)> | private final |
 | isNameVisible | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
 
 
@@ -42,7 +42,7 @@ public StringSetting(String name, String description, String value, String optio
 public LinkedHashSet<String> getOptions()
 ```
 
-**Returns:** `LinkedHashSet`<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)>
+**Returns:** [LinkedHashSet](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/LinkedHashSet.html)<[String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)>
 
 ### addOptions()
 

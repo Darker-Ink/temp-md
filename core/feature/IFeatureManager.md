@@ -40,7 +40,7 @@ Attempts to find a feature given its name
 
 
 
-**Returns:** `Optional`<`T`>
+**Returns:** [Optional](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html)<`T`>
 
 ### getFeatures()
 
@@ -52,5 +52,5 @@ Attempts to find a feature given its name
 
 
 
-**Returns:** `Iterable`<`T`>
+**Returns:** [Iterable](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Iterable.html)<`T`>
 

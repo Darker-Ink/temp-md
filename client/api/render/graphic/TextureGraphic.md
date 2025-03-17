@@ -26,7 +26,7 @@ public TextureGraphic(InputStream inputStream, int width, int height)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| inputStream | `InputStream` | private final |
+| inputStream | [InputStream](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/InputStream.html) | private final |
 | u | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
 | v | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
 | width | [int](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html) | private final |
@@ -41,7 +41,7 @@ public TextureGraphic(InputStream inputStream, int width, int height)
 public InputStream getInputStream()
 ```
 
-**Returns:** `InputStream`
+**Returns:** [InputStream](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/InputStream.html)
 
 ### getWidth()
 

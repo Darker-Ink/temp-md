@@ -38,7 +38,7 @@ window.
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| content | `List`<[WindowContent](/client/api/ui/window/content/WindowContent.md)> | protected final |
+| content | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[WindowContent](/client/api/ui/window/content/WindowContent.md)> | protected final |
 | view | [SimpleView](/client/api/ui/window/view/SimpleView.md) | protected final |
 
 

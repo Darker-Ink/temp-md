@@ -25,7 +25,7 @@ A feature with configurable settings
 
 
 
-**Returns:** `List`<[Setting](/core/setting/Setting.md)<`?`>>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>>
 
 ### registerSettings()
 

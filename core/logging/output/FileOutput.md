@@ -27,7 +27,7 @@ public FileOutput(File file)
 | Name | Type | Modifiers |
 |------|------|----------|
 | DATE_FORMAT | `SimpleDateFormat` | public static final |
-| file | `File` | private |
+| file | [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/File.html) | private |
 
 
 ## Methods

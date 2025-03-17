@@ -20,5 +20,5 @@
 static Comparator<PlayerInfo> getPlayerComparator()
 ```
 
-**Returns:** `Comparator`<`PlayerInfo`>
+**Returns:** [Comparator](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Comparator.html)<`PlayerInfo`>
 

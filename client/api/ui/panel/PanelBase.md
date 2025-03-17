@@ -25,7 +25,7 @@ public PanelBase(PanelHandlerBase<? extends PanelBase<T>> handler, String name)
 |------|------|----------|
 | name | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private final |
 | visible | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
-| items | `List`<`T`> | protected final |
+| items | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`T`> | protected final |
 | handler | [PanelHandlerBase](/client/api/ui/panel/PanelHandlerBase.md) | protected final |
 
 
@@ -69,7 +69,7 @@ public T addItem(IFeature feature)
 public List<T> getItemList()
 ```
 
-**Returns:** `List`<`T`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`T`>
 
 ### getName()
 

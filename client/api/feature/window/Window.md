@@ -57,7 +57,7 @@ Constructs a new Window with the specified title, position and size.
 | title | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private |
 | description | [String](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html) | private |
 | icon | [IGraphic](/client/api/render/graphic/IGraphic.md) | private |
-| settings | `List`<[Setting](/core/setting/Setting.md)<`?`>> | private final |
+| settings | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>> | private final |
 | width | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | protected |
 | height | [double](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html) | protected |
 | focused | [boolean](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html) | private |
@@ -172,7 +172,7 @@ public void setDescription(String description)
 public List<Setting<?>> getSettings()
 ```
 
-**Returns:** `List`<[Setting](/core/setting/Setting.md)<`?`>>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<[Setting](/core/setting/Setting.md)<`?`>>
 
 ### getWidth()
 

@@ -31,7 +31,7 @@ public ComboContent(Window window)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| contents | `List`<`Pair<WindowContent`, `AnchorSide>`> | private final |
+| contents | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`Pair<WindowContent`, `AnchorSide>`> | private final |
 | parent | [WindowView](/client/api/ui/window/view/WindowView.md) | private |
 
 
@@ -123,5 +123,5 @@ public void mouseReleased(double mouseX, double mouseY, int button)
 public List<Pair<WindowContent, AnchorSide>> getContents()
 ```
 
-**Returns:** `List`<`Pair<WindowContent`, `AnchorSide>`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`Pair<WindowContent`, `AnchorSide>`>
 

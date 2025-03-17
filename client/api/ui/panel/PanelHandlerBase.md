@@ -22,7 +22,7 @@ public PanelHandlerBase(boolean scaledWithMinecraftGui)
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| panels | `List`<`T`> | protected final |
+| panels | [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`T`> | protected final |
 
 
 ## Methods
@@ -64,7 +64,7 @@ public void moveElementToTop(T element)
 public List<T> getElements()
 ```
 
-**Returns:** `List`<`T`>
+**Returns:** [List](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html)<`T`>
 
 ### getFontRenderer()
 

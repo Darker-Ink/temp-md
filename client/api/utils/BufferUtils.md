@@ -27,7 +27,7 @@
 public static ByteBuffer create(int size)
 ```
 
-**Returns:** `ByteBuffer`
+**Returns:** [ByteBuffer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/ByteBuffer.html)
 
 ### resize()
 
@@ -35,7 +35,7 @@ public static ByteBuffer create(int size)
 public static ByteBuffer resize(ByteBuffer buffer, int size)
 ```
 
-**Returns:** `ByteBuffer`
+**Returns:** [ByteBuffer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/ByteBuffer.html)
 
 ### fileToByteBuffer()
 
@@ -43,7 +43,7 @@ public static ByteBuffer resize(ByteBuffer buffer, int size)
 public static ByteBuffer fileToByteBuffer(File file)
 ```
 
-**Returns:** `ByteBuffer`
+**Returns:** [ByteBuffer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/ByteBuffer.html)
 
 ### resourceToByteBuffer()
 
@@ -51,7 +51,7 @@ public static ByteBuffer fileToByteBuffer(File file)
 public static ByteBuffer resourceToByteBuffer(ClassLoader cl, String resource)
 ```
 
-**Returns:** `ByteBuffer`
+**Returns:** [ByteBuffer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/ByteBuffer.html)
 
 ### inputStreamToByteBuffer()
 
@@ -59,5 +59,5 @@ public static ByteBuffer resourceToByteBuffer(ClassLoader cl, String resource)
 public static ByteBuffer inputStreamToByteBuffer(InputStream inputStream)
 ```
 
-**Returns:** `ByteBuffer`
+**Returns:** [ByteBuffer](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/ByteBuffer.html)
 

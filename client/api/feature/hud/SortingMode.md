@@ -18,7 +18,7 @@
 
 | Name | Type | Modifiers |
 |------|------|----------|
-| comparator | `Comparator`<[ListItem](/client/api/feature/hud/ListItem.md)> | public final |
+| comparator | [Comparator](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Comparator.html)<[ListItem](/client/api/feature/hud/ListItem.md)> | public final |
 
 
 ## Constants
